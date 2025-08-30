@@ -72,7 +72,7 @@ function mostrarCarrito() {
   carrito.forEach(item => {
     total += item.precio * item.cantidad;
     const li = document.createElement("li");
-    li.classList.add("lista-grupo-item", "d-flex", "justify-content-between", "align-items-center");
+    li.classList.add("list-group-item", "d-flex", "justify-content-between", "align-items-center");
     li.innerHTML = `
       ${item.nombre} x ${item.cantidad} - $${item.precio * item.cantidad}
       <button class="btn btn-danger btn-sm" onclick="eliminarDelCarrito(${item.id})">Eliminar</button>
