@@ -21,8 +21,8 @@ El objetivo es mostrar la **lógica de negocio de un e-commerce** usando **HTML,
 - **JavaScript** para la lógica de negocio.  
 - **JSON** para representar los productos.  
 - **Librerías externas**:  
-  - [SweetAlert2](https://sweetalert2.github.io/) para alertas modernas.  
-  - [Toastify](https://apvarun.github.io/toastify-js/) para notificaciones.  
+  - [SweetAlert2]para alertas modernas.  
+  - [Toastify] para notificaciones.  
 
 ---
 
