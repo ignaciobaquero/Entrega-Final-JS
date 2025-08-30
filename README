@@ -1,0 +1,29 @@
+# 🧢 Chitercaps E-commerce
+
+Este proyecto es un **simulador de un e-commerce** para **Chitercaps**, mi tienda especializada en gorras **New Era exclusivas** orientadas al público streetwear.  
+El objetivo es mostrar la **lógica de negocio de un e-commerce** usando **HTML, CSS y JavaScript y Librerias como Bootstrap , SweetAlert2 y Toastify**
+
+---
+##  Características principales
+
+- 📦 **Catalogo** generado desde un archivo JSON.  
+- 🛒 **Carrito de compras interactivo** con la posibilidad de agregar y eliminar productos.  
+- 🔎 **Buscador y filtros** para encontrar productos por nombre o categoría.  
+- 🎨 **Interfaz responsive** diseñada con Bootstrap.   
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **HTML** para la estructura del sitio.  
+- **Bootstrap** para el diseño responsivo y estilos.  
+     (Usé para dar estilos nomás Bootstrap )
+- **JavaScript** para la lógica de negocio.  
+- **JSON** para representar los productos.  
+- **Librerías externas**:  
+  - [SweetAlert2](https://sweetalert2.github.io/) para alertas modernas.  
+  - [Toastify](https://apvarun.github.io/toastify-js/) para notificaciones.  
+
+---
+
+## Estructura del proyecto

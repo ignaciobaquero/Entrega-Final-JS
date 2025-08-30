@@ -1,0 +1,76 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "New Era Yankees Navy",
+      "descripcion": "Gorra New Era 59FIFTY de los New York Yankees en color navy, con logo bordado.",
+      "precio": 18000,
+      "categoria": "Gorras",
+      "imagen": "./assets/navy.jpg",
+      "stock": 12,
+      "disponible": true,
+      "descuento": 0,
+      "etiquetas": ["mlb", "yankees", "navy", "streetwear"]
+    },
+    {
+      "id": 2,
+      "nombre": "New Era Chicago Bulls Black",
+      "descripcion": "Gorra New Era 9FIFTY snapback de los Chicago Bulls, en color negro con logo rojo.",
+      "precio": 17500,
+      "categoria": "Gorras",
+      "imagen": "./assets/red.webp",
+      "stock": 8,
+      "disponible": true,
+      "descuento": 10,
+      "etiquetas": ["nba", "bulls", "snapback", "black"]
+    },
+    {
+      "id": 3,
+      "nombre": "New Era LA Dodgers Royal Blue",
+      "descripcion": "Gorra New Era 59FIFTY de Los Angeles Dodgers, color azul royal clásico.",
+      "precio": 18500,
+      "categoria": "Gorras",
+      "imagen": "./assets/la azul.webp",
+      "stock": 15,
+      "disponible": true,
+      "descuento": 5,
+      "etiquetas": ["mlb", "dodgers", "blue", "classic"]
+    },
+    {
+      "id": 4,
+      "nombre": "New Era Golden State Warriors",
+      "descripcion": "Gorra New Era 9FORTY ajustable de Golden State Warriors en azul y amarillo.",
+      "precio": 16500,
+      "categoria": "Gorras",
+      "imagen": "./assets/golden warrior.jpg",
+      "stock": 10,
+      "disponible": true,
+      "descuento": 0,
+      "etiquetas": ["nba", "warriors", "yellow", "blue"]
+    },
+    {
+      "id": 5,
+      "nombre": "New Era New York Knicks",
+      "descripcion": "Gorra New Era 9FIFTY snapback de los New York Knicks, con logo bordado frontal.",
+      "precio": 17000,
+      "categoria": "Gorras",
+      "imagen": "./assets/knicks.jpg",
+      "stock": 7,
+      "disponible": true,
+      "descuento": 0,
+      "etiquetas": ["nba", "knicks", "snapback", "orange"]
+    },
+    {
+      "id": 6,
+      "nombre": "New Era Boston Red Sox",
+      "descripcion": "Gorra New Era 59FIFTY de los Boston Red Sox, color navy con logo clásico.",
+      "precio": 18200,
+      "categoria": "Gorras",
+      "imagen": "./assets/boston.webp",
+      "stock": 9,
+      "disponible": true,
+      "descuento": 0,
+      "etiquetas": ["mlb", "redsox", "navy", "classic"]
+    }
+  ]
+}
