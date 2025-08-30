@@ -1,19 +1,19 @@
 // Carrito
 let carrito = [];
-let productos = []; // guardamos los productos cargados del JSON
+let productos = []; 
 
 // Cargar productos desde el JSON
 fetch("data/data.json")
   .then(res => res.json())
   .then(data => {
-    productos = data.productos; // guardo en variable global
+    productos = data.productos;
     mostrarCatalogo(productos);
   })
   .catch(error => {
     Swal.fire({ icon: 'error', title: 'Error al cargar productos' });
   });
 
-// Función para mostrar catálogo
+// Catálogo
 function mostrarCatalogo(lista) {
   const catalogoDiv = document.getElementById("catalogo");
   catalogoDiv.innerHTML = "";
@@ -72,7 +72,7 @@ function mostrarCarrito() {
   carrito.forEach(item => {
     total += item.precio * item.cantidad;
     const li = document.createElement("li");
-    li.classList.add("list-group-item", "d-flex", "justify-content-between", "align-items-center");
+    li.classList.add("lista-grupo-item", "d-flex", "justify-content-between", "align-items-center");
     li.innerHTML = `
       ${item.nombre} x ${item.cantidad} - $${item.precio * item.cantidad}
       <button class="btn btn-danger btn-sm" onclick="eliminarDelCarrito(${item.id})">Eliminar</button>
